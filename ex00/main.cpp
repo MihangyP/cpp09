@@ -6,14 +6,14 @@
 /*   By: pmihangy <pmihangy@student.42antanana      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/12 15:28:30 by pmihangy          #+#    #+#             */
-/*   Updated: 2025/06/12 15:29:03 by pmihangy         ###   ########.fr       */
+/*   Updated: 2025/06/16 10:15:56 by pmihangy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <iostream>
+#include "BitcoinExchange.hpp"
 
 int	main(void)
 {
-	std::cout << "Hello, World" << std::endl;
+	BitcoinExchange::printBitcoinValues("Hello Man Negga");	
 	return (0);
 }
