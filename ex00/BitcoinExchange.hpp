@@ -6,7 +6,7 @@
 /*   By: pmihangy <pmihangy@student.42antanana      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/15 16:24:01 by pmihangy          #+#    #+#             */
-/*   Updated: 2025/06/16 10:14:01 by pmihangy         ###   ########.fr       */
+/*   Updated: 2025/06/17 09:30:26 by pmihangy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,9 @@
 # define __BITCOIN_EXCHANGE_HPP
 
 #include <iostream>
+#include <fstream>
+
+typedef std::string string;
 
 typedef std::string string;
 
