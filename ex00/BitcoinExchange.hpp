@@ -6,7 +6,7 @@
 /*   By: pmihangy <pmihangy@student.42antanana      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/15 16:24:01 by pmihangy          #+#    #+#             */
-/*   Updated: 2025/06/17 11:10:33 by pmihangy         ###   ########.fr       */
+/*   Updated: 2025/06/17 16:18:13 by pmihangy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ class	BitcoinExchange {
 		BitcoinExchange& operator=(const BitcoinExchange& other);
 		~BitcoinExchange(void);
 
-		static void	printBitcoinValues(string filename);	
+		static void printBitcoinValues(string filename, std::map<string, double> data);
 };
 
 #endif // __BITCOIN_EXCHANGE_HPP

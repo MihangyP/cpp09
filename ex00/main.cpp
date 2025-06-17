@@ -6,7 +6,7 @@
 /*   By: pmihangy <pmihangy@student.42antanana      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/12 15:28:30 by pmihangy          #+#    #+#             */
-/*   Updated: 2025/06/17 11:00:00 by pmihangy         ###   ########.fr       */
+/*   Updated: 2025/06/17 16:34:35 by pmihangy         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,6 +42,10 @@ int	main(int ac, char **av)
 	}
 	dataFile.close();
 
-	BitcoinExchange::printBitcoinValues(av[1], data);	
+	try {
+		BitcoinExchange::printBitcoinValues(av[1], data);	
+	} catch (std::exception& e) {
+		std::cout << e.what() << std::endl;
+	}
 	return (0);
 }
